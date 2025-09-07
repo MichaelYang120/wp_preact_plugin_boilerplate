@@ -1,0 +1,21 @@
+{
+  "name": "preact_plugin_boilerplate",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "devnotworking": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "build:watch": "vite build --watch",
+	"dev": "vite build --watch"
+  },
+  "devDependencies": {
+    "vite": "^7.1.2",
+    "@preact/preset-vite": "^2.10.2",
+    "@types/node": "^24.3.1",
+    "typescript": "~5.8.3",
+    "vite-plugin-javascript-obfuscator": "^3.1.0",
+    "vite-plugin-obfuscator": "^1.0.5"
+  }
+}
